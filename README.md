@@ -36,19 +36,22 @@ That's cool...  So what can we do with it?
 - All sorts of fun...
 
 
-What do we need to get started?
+Requirements
 ---
-- scapy:
- - http://www.secdev.org/projects/scapy/
-- Aircrack-ng:
- - http://www.aircrack-ng.org/
-- libpcap
-- dot11decrypt (For WEP/WPA decryption):
- - https://github.com/mfontanini/dot11decrypt
+- pyDot11:
+ - https://github.com/stryngs/pyDot11
 
-How do we use airpwn-ng?
+Installation
 ---
-- Refer to the Tutorial file for a basic attack scenario
+```
+git clone https://github.com/stryngs/pyDot11
+cd pyDot11
+pip install pyDot11-0.3.tar.gz
+cd ..
+git clone git@github.com:sh1n0b1/airpwn-ng.git
+cd airpwn-ng
+python airpwn-ng
+```
 
 Example Syntax
 ---
