@@ -1,5 +1,3 @@
-The home of the new and improved version of airpwn... airpwn-ng
-===============================================================
 Overview
 ---
 - We force the target's browser to do what we want
